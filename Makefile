@@ -15,3 +15,8 @@ makecache/conda-env:
 		./bin/install-pip-dependencies.sh
 	mkdir -p $(PWD)/makecache
 	touch $(PWD)/makecache/conda-env
+
+run-api-locally: makecache/conda-env
+	source activate $(CONDA_ENV_NAME) && \
+	cd demo-docker-api/ && \
+	uvicorn main:app --reload
