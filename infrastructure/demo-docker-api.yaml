@@ -4,5 +4,5 @@ channels:
   - defaults
   - anaconda
 dependencies:
-  - python=3.7.6
+  - python=3.8
   - pip>=19.0.3
