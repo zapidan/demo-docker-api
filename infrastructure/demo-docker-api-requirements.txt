@@ -1,0 +1,11 @@
+black==19.10b0
+pycodestyle==2.6.0
+pytest
+pytest-cov
+pytest-mock
+responses
+fastapi
+uvicorn
+
+--index-url https://pypi.python.org/simple
+

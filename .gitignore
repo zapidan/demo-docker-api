@@ -1,0 +1,22 @@
+# IDEs
+*.vscode
+*.idea
+*.DS_Store
+*.code-workspace
+
+
+# Cache
+**/.cache
+**/.mypy_cache/
+makecache/*
+
+# Python stuff
+**/build/
+*.egg-info/
+**/dist/
+**/*.pyc
+**/.ipynb_checkpoints/
+**/Untitled.ipynb
+
+# Environment stuff
+.env

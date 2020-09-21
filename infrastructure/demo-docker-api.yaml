@@ -1,0 +1,8 @@
+name: demo_docker_api
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.7.6
+  - pip>=19.0.3
